@@ -1,12 +1,11 @@
-CREATE DATABASE desafio3_cristobal_fuenzalida_067
-
+CREATE DATABASE desafio3_cristobal_fuenzalida_066;
 
 CREATE TABLE Usuarios(  
     id SERIAL,
     email VARCHAR(255),
     nombre VARCHAR(255),
     apellido VARCHAR(255),
-    rol VARCHAR(255),
+    rol VARCHAR(255)
 );
 ---Requerimiento 1  Nota: A modo de excepción, La tabla Articulos debe ser considerada como la tabla de posts.
 CREATE TABLE Usuarios(  
@@ -124,7 +123,7 @@ LEFT JOIN comentarios ON usuarios.id = comentarios.usuario_id
 WHERE comentarios.usuario_id IS NULL;
 
 
----Drop para testear cambios.
+--Drop para testear cambios.
 --DROP TABLE comentarios;
 --DROP TABLE articulos;
 --DROP TABLE usuarios;
