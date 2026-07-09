@@ -1,3 +1,6 @@
+CREATE DATABASE desafio3_cristobal_fuenzalida_067
+
+
 CREATE TABLE Usuarios(  
     id SERIAL,
     email VARCHAR(255),
