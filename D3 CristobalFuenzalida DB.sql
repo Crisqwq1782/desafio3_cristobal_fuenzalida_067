@@ -1,4 +1,4 @@
-CREATE DATABASE desafio3_cristobal_fuenzalida_066;
+CREATE DATABASE desafio3_cristobal_fuenzalida_067;
 
 CREATE TABLE Usuarios(  
     id SERIAL,
