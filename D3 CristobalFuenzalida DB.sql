@@ -1,12 +1,6 @@
 CREATE DATABASE desafio3_cristobal_fuenzalida_067;
 
-CREATE TABLE Usuarios(  
-    id SERIAL,
-    email VARCHAR(255),
-    nombre VARCHAR(255),
-    apellido VARCHAR(255),
-    rol VARCHAR(255)
-);
+
 ---Requerimiento 1  Nota: A modo de excepción, La tabla Articulos debe ser considerada como la tabla de posts.
 CREATE TABLE Usuarios(  
     id SERIAL PRIMARY KEY,
